@@ -164,4 +164,52 @@ width: 80%;
     color: #00030C;
 }
 
+@media screen and (max-width: 768px){
+    .container{
+        display: block;
+        background-image: none;
+    }
+
+    .container__secundario{
+        height: 2vh;
+    }
+
+    .container__imagem{
+        width: 50vw;
+    }
+
+    .container__caixa{
+        margin: 2em 2em;
+    }
+
+    .secundario{
+        margin: 0;
+        text-align: center;
+    }
+
+    .secundario__imagem{
+        width: 50vw;
+    }
+
+    .dispositivos__lista{
+        display: block;
+        text-align: center;
+    }
+
+    .lista__rodape{
+        display: block;
+    }
+
+    .rodape__logo{
+        text-align: center;
+    }
+
+    .lista__links{
+        margin: 1em 0;
+        text-align: center;
+    }
+
+}
+
+
 
